@@ -25,7 +25,6 @@ public class HalamanManager : MonoBehaviour {
                 KembaliKeMenu();
             }
         }
-
     }
 
     public void MulaiPermainan()

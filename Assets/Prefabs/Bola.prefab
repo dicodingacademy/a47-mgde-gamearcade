@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 58385156069091102}
   - component: {fileID: 114690078266874186}
   - component: {fileID: 82853626223625698}
+  - component: {fileID: 114711079006716654}
+  - component: {fileID: 114114629812464696}
   m_Layer: 0
   m_Name: Bola
   m_TagString: Untagged
@@ -159,6 +161,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114114629812464696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512471190409962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 2
+  m_SendInterval: 0.033333335
+  m_SyncRotationAxis: 0
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!114 &114690078266874186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,7 +194,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 300
+  scoreP1: 0
+  scoreP2: 0
   hitSound: {fileID: 8300000, guid: b9c0325dc01142b4dac63e496e915537, type: 3}
+--- !u!114 &114711079006716654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512471190409962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 21
+    i1: 151
+    i2: 179
+    i3: 212
+    i4: 198
+    i5: 19
+    i6: 12
+    i7: 228
+    i8: 41
+    i9: 166
+    i10: 51
+    i11: 190
+    i12: 166
+    i13: 164
+    i14: 241
+    i15: 129
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!212 &212395213606253912
 SpriteRenderer:
   m_ObjectHideFlags: 1

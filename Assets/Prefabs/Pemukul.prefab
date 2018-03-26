@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212538387338338110}
   - component: {fileID: 114472022523184190}
   - component: {fileID: 61519041376413874}
+  - component: {fileID: 114757417538865086}
+  - component: {fileID: 114860694176586770}
   m_Layer: 0
   m_Name: Pemukul
   m_TagString: Untagged
@@ -82,6 +84,59 @@ MonoBehaviour:
   batasBawah: -3.45
   kecepatan: 7
   axis: Vertical
+--- !u!114 &114757417538865086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819005781173872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 135
+    i1: 235
+    i2: 16
+    i3: 150
+    i4: 251
+    i5: 114
+    i6: 138
+    i7: 244
+    i8: 185
+    i9: 65
+    i10: 163
+    i11: 168
+    i12: 138
+    i13: 91
+    i14: 11
+    i15: 118
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114860694176586770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819005781173872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.033333335
+  m_SyncRotationAxis: 0
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!212 &212538387338338110
 SpriteRenderer:
   m_ObjectHideFlags: 1
