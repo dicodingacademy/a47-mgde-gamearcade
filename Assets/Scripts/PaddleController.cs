@@ -17,7 +17,7 @@ public class PaddleController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float gerak = GetInputPC();
+        float gerak = GetInputPC();
 
         float nextPos = transform.position.y + gerak;
         if (nextPos > batasAtas)
@@ -36,5 +36,4 @@ public class PaddleController : MonoBehaviour {
     {
         return Input.GetAxis(axis) * kecepatan * Time.deltaTime;
     }
-		
 }
